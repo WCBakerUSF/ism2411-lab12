@@ -90,4 +90,8 @@ with open(SALES_FILE, "r") as f:
         total = float(row["price"]) * int(row["quantity"])
         summary[product] = summary.get(product, 0) + total
 for product in sorted(summary):
-    print(f"{product}: ${summary:.2f}")
+    print(f"{product}: ${summary[product]:.2f}")
+
+print("---Exercise 8---")
+
+timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
