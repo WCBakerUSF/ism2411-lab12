@@ -1,3 +1,10 @@
+# Reflection Questions
+# 1. Unlike in Excel, Python can automatically update a set of data from a file and place it into a
+# table. Which otherwise would've had to been done manually placed into a new chart before.
+# 2. The ability to append and modify a section of data is very important in the world of business.
+# A supply company would need to have a way to update shipping records, manifests, trucking schedules, 
+# and the best way to do that could very well be through appending a python script that provides the data tables. 
+
 import csv 
 from datetime import datetime
 
